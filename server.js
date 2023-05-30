@@ -23,7 +23,7 @@ app.use(morgan("dev"));
 app.use('/api/auth',authRoute)
 
 app.get('/', function (req, res) {  
-    res.send('Welcome to JavaTpoint!');  
+    res.send('Welcome to Webskitters!');  
   });  
 
 
